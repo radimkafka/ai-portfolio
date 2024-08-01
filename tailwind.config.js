@@ -2,7 +2,7 @@ import { fontFamily } from "tailwindcss/defaultTheme";
 
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./*.{html,js}"],
+  content: ["./index.html"],
   theme: {
     extend: {
       fontFamily: {
