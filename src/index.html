@@ -9,190 +9,224 @@
 </head>
 
 <body>
-    <div class="flex flex-col min-h-[100dvh]">
-        <header class="px-4 lg:px-6 h-14 flex items-center bg-primary text-primary-foreground">
-            <a class="flex items-center justify-center" href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="h-6 w-6">
-                    <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path>
-                    <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path>
-                    <path d="M7 21h10"></path>
-                    <path d="M12 3v18"></path>
-                    <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"></path>
-                </svg>
-                <span class="sr-only">John Doe, Attorney at Law</span>
-            </a>
-            <nav class="ml-auto flex gap-4 sm:gap-6">
-                <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
-                    Practice Areas
-                </a>
-                <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
-                    Past Cases
-                </a>
-                <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
-                    Contact
-                </a>
-            </nav>
-        </header>
-        <main class="flex-1">
-            <section class="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-primary text-primary-foreground">
-                <div class="container px-4 md:px-6">
-                    <div class="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
-                        <div class="flex flex-col justify-center space-y-4">
-                            <div class="space-y-2">
-                                <h1 class="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                                    John Doe, Attorney at Law
-                                </h1>
-                                <p class="max-w-[600px] text-muted-foreground md:text-xl">
-                                    With over 15 years of experience, I specialize in providing legal counsel and
-                                    representation to
-                                    individuals and businesses in a wide range of practice areas.ith over 15 years of
-                                    experience, I
-                                    specialize in providing
+
+    <body class="bg-background !opacity-100 transition-opacity duration-300" style="opacity:0">
+
+        <div class="!visible transition-opacity duration-150 bg-background text-foreground !opacity-100"
+            id="v0-container" style="visibility:hidden;opacity:0"><!--$-->
+            <style style="">
+                :root {
+                    --background: 0 0% 100%;
+                    --foreground: 240 10% 3.9%;
+                    --card: 0 0% 100%;
+                    --card-foreground: 240 10% 3.9%;
+                    --popover: 0 0% 100%;
+                    --popover-foreground: 240 10% 3.9%;
+                    --primary: 240 5.9% 10%;
+                    --primary-foreground: 0 0% 98%;
+                    --secondary: 240 4.8% 95.9%;
+                    --secondary-foreground: 240 5.9% 10%;
+                    --muted: 240 4.8% 95.9%;
+                    --muted-foreground: 240 3.8% 45%;
+                    --accent: 240 4.8% 95.9%;
+                    --accent-foreground: 240 5.9% 10%;
+                    --destructive: 0 72% 51%;
+                    --destructive-foreground: 0 0% 98%;
+                    --border: 240 5.9% 90%;
+                    --input: 240 5.9% 90%;
+                    --ring: 240 5.9% 10%;
+                    --chart-1: 173 58% 39%;
+                    --chart-2: 12 76% 61%;
+                    --chart-3: 197 37% 24%;
+                    --chart-4: 43 74% 66%;
+                    --chart-5: 27 87% 67%;
+                    --radius: 0.5rem;
+                }
+
+                img[src="/placeholder.svg"],
+                img[src="/placeholder-user.jpg"] {
+                    filter: sepia(.3) hue-rotate(-60deg) saturate(.5) opacity(0.8)
+                }
+            </style>
+            <style style="">
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                    font-family: 'Inter', sans-serif;
+                    --font-sans-serif: 'Inter';
+                }
+            </style>
+            <style style="">
+                body {
+                    font-family: 'Inter', sans-serif;
+                    --font-sans-serif: 'Inter';
+                }
+            </style><!--/$-->
+            <div class="flex flex-col min-h-dvh" data-id="1">
+                <header class="bg-primary text-primary-foreground py-4 px-6 flex items-center justify-between"
+                    data-id="2">
+                    <div class="flex items-center gap-4" data-id="3">
+                        <div class="bg-primary-foreground rounded-full w-10 h-10 flex items-center justify-center text-2xl font-bold"
+                            data-id="4">JD</div>
+                        <div data-id="5">
+                            <h1 class="text-2xl font-bold" data-id="6">John Doe</h1>
+                            <p class="text-sm" data-id="7">Attorney at Law</p>
+                        </div>
+                    </div>
+                    <nav class="flex gap-4" data-id="8"><a data-id="9" class="hover:underline" href="#" rel="ugc">
+                            Home
+                        </a><a data-id="10" class="hover:underline" href="#" rel="ugc">
+                            About
+                        </a><a data-id="11" class="hover:underline" href="#" rel="ugc">
+                            Services
+                        </a><a data-id="12" class="hover:underline" href="#" rel="ugc">
+                            Contact
+                        </a></nav>
+                </header>
+                <main class="flex-1" data-id="13">
+                    <section id="hero" class="bg-primary py-20 px-6 text-primary-foreground" data-id="14">
+                        <div class="container mx-auto max-w-4xl space-y-6 text-center" data-id="15">
+                            <h1 class="text-4xl font-bold" data-id="16">John Doe, Attorney at Law</h1>
+                            <p class="text-xl" data-id="17">Providing exceptional legal services to individuals and
+                                businesses in the community.</p><a data-id="18"
+                                class="inline-flex items-center justify-center rounded-md bg-primary-foreground px-6 py-3 text-primary font-medium transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+                                href="#" rel="ugc">
+                                Schedule a Consultation
+                            </a>
+                        </div>
+                    </section>
+                    <section id="about" class="py-20 px-6" data-id="19">
+                        <div class="container mx-auto max-w-4xl space-y-8" data-id="20">
+                            <div class="space-y-4" data-id="21">
+                                <h2 class="text-3xl font-bold" data-id="22">About Me</h2>
+                                <p data-id="23">I am a highly experienced attorney with a proven track record of success
+                                    in a wide range of legal matters. With over 15 years of experience, I have developed
+                                    a deep understanding of the law and a keen ability to navigate complex legal issues.
                                 </p>
+                                <p data-id="24">My areas of expertise include business law, real estate, estate
+                                    planning, and litigation. I am committed to providing personalized attention to each
+                                    of my clients, ensuring that their legal needs are met with the utmost care and
+                                    professionalism.</p>
                             </div>
-                            <div class="flex flex-col gap-2 min-[400px]:flex-row">
-                                <a href="#"
-                                    class="inline-flex h-10 items-center justify-center rounded-md bg-secondary px-8 text-sm font-medium text-secondary-foreground shadow transition-colors hover:bg-secondary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
-                                    Learn More
-                                </a>
-                                <a href="#"
-                                    class="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
-                                    Contact Me
-                                </a>
+                            <div class="space-y-4" data-id="25">
+                                <h2 class="text-3xl font-bold" data-id="26">My Qualifications</h2>
+                                <ul class="space-y-2" data-id="27">
+                                    <li data-id="28">
+                                        <div class="flex items-center gap-2" data-id="29"><svg data-id="30"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="w-5 h-5 text-primary">
+                                                <path d="M20 6 9 17l-5-5"></path>
+                                            </svg><span data-id="31">Juris Doctor degree from a top-tier law
+                                                school</span></div>
+                                    </li>
+                                    <li data-id="32">
+                                        <div class="flex items-center gap-2" data-id="33"><svg data-id="34"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="w-5 h-5 text-primary">
+                                                <path d="M20 6 9 17l-5-5"></path>
+                                            </svg><span data-id="35">Admitted to practice law in the state of
+                                                California</span></div>
+                                    </li>
+                                    <li data-id="36">
+                                        <div class="flex items-center gap-2" data-id="37"><svg data-id="38"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="w-5 h-5 text-primary">
+                                                <path d="M20 6 9 17l-5-5"></path>
+                                            </svg><span data-id="39">Over 15 years of experience in a wide range of
+                                                legal matters</span></div>
+                                    </li>
+                                    <li data-id="40">
+                                        <div class="flex items-center gap-2" data-id="41"><svg data-id="42"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="w-5 h-5 text-primary">
+                                                <path d="M20 6 9 17l-5-5"></path>
+                                            </svg><span data-id="43">Recognized as a top attorney in the local
+                                                community</span></div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <img src="/placeholder.svg" width="550" height="550" alt="John Doe" style=""
-                            class="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square" />
-                    </div>
-                </div>
-            </section>
-            <section class="w-full py-12 md:py-24 lg:py-32">
-                <div class="container px-4 md:px-6">
-                    <div class="flex flex-col items-center justify-center space-y-4 text-center">
-                        <div class="space-y-2">
-                            <div class="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Practice Areas</div>
-                            <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">Areas of Expertise</h2>
-                            <p
-                                class="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                                I provide legal services in a wide range of practice areas, including business law, real
-                                estate,
-                                estate planning, and personal injury.
-                            </p>
+                    </section>
+                    <section id="services" class="bg-muted py-20 px-6" data-id="44">
+                        <div class="container mx-auto max-w-4xl space-y-8" data-id="45">
+                            <div class="space-y-4" data-id="46">
+                                <h2 class="text-3xl font-bold" data-id="47">My Services</h2>
+                                <p data-id="48">As an experienced attorney, I offer a wide range of legal services to
+                                    individuals and businesses in the community. My areas of practice include:</p>
+                            </div>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6" data-id="49">
+                                <div class="bg-background rounded-lg p-6 shadow-md" data-id="50">
+                                    <h3 class="text-xl font-bold" data-id="51">Business Law</h3>
+                                    <p class="text-muted-foreground" data-id="52">Advising clients on business
+                                        formation, contracts, intellectual property, and more.</p>
+                                </div>
+                                <div class="bg-background rounded-lg p-6 shadow-md" data-id="53">
+                                    <h3 class="text-xl font-bold" data-id="54">Real Estate</h3>
+                                    <p class="text-muted-foreground" data-id="55">Handling real estate transactions,
+                                        zoning and land use issues, and property disputes.</p>
+                                </div>
+                                <div class="bg-background rounded-lg p-6 shadow-md" data-id="56">
+                                    <h3 class="text-xl font-bold" data-id="57">Estate Planning</h3>
+                                    <p class="text-muted-foreground" data-id="58">Assisting clients with wills, trusts,
+                                        powers of attorney, and other estate planning documents.</p>
+                                </div>
+                                <div class="bg-background rounded-lg p-6 shadow-md" data-id="59">
+                                    <h3 class="text-xl font-bold" data-id="60">Litigation</h3>
+                                    <p class="text-muted-foreground" data-id="61">Representing clients in a variety of
+                                        civil and commercial litigation matters.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-                        <div class="flex flex-col justify-center space-y-4">
-                            <ul class="grid gap-6">
-                                <li>
-                                    <div class="grid gap-1">
-                                        <h3 class="text-xl font-bold">Business Law</h3>
-                                        <p class="text-muted-foreground">
-                                            Advising clients on corporate formation, contracts, mergers and
-                                            acquisitions,
-                                            and regulatory
-                                            compliance.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="grid gap-1">
-                                        <h3 class="text-xl font-bold">Real Estate</h3>
-                                        <p class="text-muted-foreground">
-                                            Representing clients in residential and commercial real estate transactions,
-                                            including sales,
-                                            leases, and disputes.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="grid gap-1">
-                                        <h3 class="text-xl font-bold">Estate Planning</h3>
-                                        <p class="text-muted-foreground">
-                                            Assisting clients with wills, trusts, powers of attorney, and other estate
-                                            planning documents.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="grid gap-1">
-                                        <h3 class="text-xl font-bold">Personal Injury</h3>
-                                        <p class="text-muted-foreground">
-                                            Advocating for clients who have been injured due to the negligence of
-                                            others,
-                                            including car
-                                            accidents and slip-and-fall incidents.
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
+                    </section>
+                    <section id="contact" class="py-20 px-6" data-id="62">
+                        <div class="container mx-auto max-w-4xl space-y-8" data-id="63">
+                            <div class="space-y-4" data-id="64">
+                                <h2 class="text-3xl font-bold" data-id="65">Contact Me</h2>
+                                <p data-id="66">If you have any questions or would like to schedule a consultation,
+                                    please don't hesitate to reach out.</p>
+                            </div>
+                            <form class="space-y-4" data-id="67">
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" data-id="68"><input
+                                        class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                        label="Name" placeholder="Enter your name" data-id="69"><input
+                                        class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                        label="Email" placeholder="Enter your email" data-id="70" type="email"></div>
+                                <input
+                                    class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                    label="Subject" placeholder="Enter the subject" data-id="71"><textarea
+                                    class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                    label="Message" placeholder="Enter your message" data-id="72"></textarea><button
+                                    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                                    type="submit" data-id="73">Submit</button>
+                            </form>
                         </div>
-                        <img src="/placeholder.svg" width="550" height="310" alt="Practice Areas" style=""
-                            class="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last" />
+                    </section>
+                </main>
+                <footer class="bg-primary text-primary-foreground py-6 px-6" data-id="74">
+                    <div class="container mx-auto max-w-4xl flex items-center justify-between" data-id="75">
+                        <p class="text-sm" data-id="76">© 2024 John Doe, Attorney at Law. All rights reserved.</p>
+                        <div class="flex gap-4" data-id="77"><a data-id="78" class="hover:underline" href="#" rel="ugc">
+                                Privacy Policy
+                            </a><a data-id="79" class="hover:underline" href="#" rel="ugc">
+                                Terms of Service
+                            </a></div>
                     </div>
-                </div>
-            </section>
-            <section class="w-full py-12 md:py-24 lg:py-32 bg-muted">
-                <div class="container px-4 md:px-6">
-                    <div class="flex flex-col items-center justify-center space-y-4 text-center">
-                        <div class="space-y-2">
-                            <div class="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Past Cases</div>
-                            <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">Successful Outcomes</h2>
-                            <p
-                                class="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                                I have a proven track record of achieving favorable outcomes for my clients in a wide
-                                range
-                                of legal
-                                matters.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-                        <div class="flex flex-col justify-center space-y-4">
-                            <ul class="grid gap-6">
-                                <li>
-                                    <div class="grid gap-1">
-                                        <h3 class="text-xl font-bold">$2.5 Million Settlement in Personal Injury Case
-                                        </h3>
-                                        <p class="text-muted-foreground">
-                                            Secured a substantial settlement for a client who suffered serious injuries
-                                            in a
-                                            car accident.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="grid gap-1">
-                                        <h3 class="text-xl font-bold">Successful Business Acquisition</h3>
-                                        <p class="text-muted-foreground">
-                                            Guided a client through the complex process of acquiring a competitor,
-                                            resulting
-                                            in a strategic
-                                            expansion of their business.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="grid gap-1">
-                                        <h3 class="text-xl font-bold">Probate Victory for Estate Beneficiaries</h3>
-                                        <p class="text-muted-foreground">
-                                            Represented beneficiaries in a complex probate dispute, ensuring they
-                                            received
-                                            their rightful
-                                            inheritance.bate dispute, ensuring they received their rightful
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <img src="/placeholder.svg" width="550" height="310"
-                            style="aspect-ratio: 550 / 310; object-fit: cover;" />
-                    </div>
-                </div>
-            </section>
-        </main>
-    </div>
+                </footer>
+            </div>
+        </div>
+
+    </body>
 
 
 </body>
