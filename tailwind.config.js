@@ -1,4 +1,4 @@
-import { fontFamily } from "tailwindcss/defaultTheme";
+import { fontFamily, colors } from "tailwindcss/defaultTheme";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -65,17 +65,7 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
-  },
-  colors: {
-    blue: "#1fb6ff",
-    purple: "#7e5bef",
-    pink: "#ff49db",
-    orange: "#ff7849",
-    green: "#13ce66",
-    yellow: "#ffc82c",
-    "gray-dark": "#273444",
-    gray: "#8492a6",
-    "gray-light": "#d3dce6",
+    colors: colors,
   },
   plugins: [require("tailwindcss-animate")],
 };
