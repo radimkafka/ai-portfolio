@@ -31,8 +31,9 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       colors: {
-        dark: colors.blue[950],
-        light: colors.sky[700],
+        primaryDark: colors.blue[950],
+        secondaryDark: colors.sky[700],
+        secondaryLight: colors.sky[200],
       },
     },
   },
