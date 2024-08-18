@@ -30,11 +30,11 @@ export default {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
-      colors: {
-        primaryDark: colors.blue[950],
-        secondaryDark: colors.sky[700],
-        secondaryLight: colors.sky[200],
-      },
+      // colors: {
+      //   primaryDark: colors.blue[950],
+      //   secondaryDark: colors.sky[700],
+      //   secondaryLight: colors.sky[200],
+      // },
     },
   },
   plugins: [require("tailwindcss-animate")],

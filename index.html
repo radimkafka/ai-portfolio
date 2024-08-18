@@ -7,9 +7,9 @@
     <title>Page Title</title>
   </head>
 
-  <body class="flex flex-col gap-2 bg-blue-100 p-4">
+  <body class="flex flex-col gap-2 bg-gray-200 p-4">
     <header
-      class="flex items-center justify-between rounded-2xl bg-sky-50 p-4 px-6 py-4"
+      class="flex items-center justify-between rounded-2xl bg-gray-50 p-4 px-6 py-4 shadow-md"
     >
       <div class="flex items-center gap-4" data-id="3">
         <div
@@ -37,12 +37,12 @@
     <main class="flex flex-col gap-4">
       <section
         id="hero"
-        class="flex flex-row gap-4 rounded-2xl bg-indigo-900 px-6 py-20 text-sky-50"
+        class="flex flex-row gap-4 rounded-2xl bg-gray-900 px-6 py-20 text-gray-50 shadow-md"
         data-id="14"
       >
         <div class="flex-0 flex items-center justify-center px-10">
           <div
-            class="flex h-32 w-32 items-center justify-center rounded-full bg-secondaryLight text-4xl font-bold"
+            class="flex h-32 w-32 items-center justify-center rounded-full bg-gray-200 text-4xl font-bold"
             data-id="4"
           >
             JD
@@ -51,7 +51,7 @@
         <div class="flex flex-1 flex-col gap-2">
           <h1 class="text-4xl font-bold" data-id="16">John Doe, advokát</h1>
           <p class="text-xl" data-id="17">
-            Poskytování výjimečných právních služeb jednotlivcům a firmám.
+            Pograytování výjimečných právních služeb jednotlivcům a firmám.
           </p>
           <div class="flex">
             <a
@@ -60,26 +60,26 @@
               href="#"
               rel="ugc"
             >
-              Domluvce si schůzku
+              Domluvte si schůzku
             </a>
           </div>
         </div>
       </section>
       <section id="about" class="flex flex-row gap-4" data-id="19">
         <div
-          class="flex flex-1 flex-col rounded-2xl bg-sky-50 px-6 py-20"
+          class="flex flex-1 flex-col rounded-2xl bg-gray-50 px-6 py-20 shadow-md"
           data-id="21"
         >
           <h2 class="text-3xl font-bold" data-id="22">O mě</h2>
           <p data-id="23">
             Jsem John Doe, zkušený právník se specializací na [obor práva, např.
             obchodní právo, rodinné právo, trestní právo apod.]. Ve své praxi se
-            zaměřuji na poskytování komplexních právních služeb s důrazem na
+            zaměřuji na pograytování komplexních právních služeb s důrazem na
             individuální přístup a maximální ochranu práv a zájmů mých klientů.
           </p>
         </div>
         <div
-          class="flex flex-1 flex-col rounded-2xl bg-sky-50 px-6 py-20"
+          class="flex flex-1 flex-col rounded-2xl bg-gray-50 px-6 py-20 shadow-md"
           data-id="25"
         >
           <h2 class="text-3xl font-bold" data-id="26">Kvalifikace</h2>
@@ -177,7 +177,7 @@
       </section>
       <section
         id="services"
-        class="flex flex-1 flex-col rounded-2xl bg-sky-50 px-6 py-20"
+        class="flex flex-1 flex-col rounded-2xl bg-gray-50 px-6 py-20 shadow-md"
         data-id="44"
       >
         <div class="container mx-auto max-w-4xl space-y-8" data-id="45">
@@ -185,7 +185,7 @@
             <h2 class="text-3xl font-bold" data-id="47">Služby</h2>
           </div>
           <div
-            class="grid grid-cols-1 gap-6 rounded-2xl bg-sky-50 sm:grid-cols-2"
+            class="grid grid-cols-1 gap-6 rounded-2xl bg-gray-50 sm:grid-cols-2"
             data-id="49"
           >
             <div class="rounded-2xl p-6 shadow-md" data-id="50">
@@ -221,10 +221,10 @@
       </section>
       <section
         id="contact"
-        class="rounded-2xl bg-sky-50 px-6 py-20"
+        class="rounded-2xl bg-gray-50 px-4 py-20 shadow-md"
         data-id="62"
       >
-        <div class="container mx-auto max-w-4xl space-y-8" data-id="63">
+        <div class="container mx-auto max-w-4xl" data-id="63">
           <div class="space-y-4" data-id="64">
             <h2 class="text-3xl font-bold" data-id="65">Contact Me</h2>
             <p data-id="66">
@@ -232,11 +232,7 @@
               consultation, please don't hesitate to reach out.
             </p>
           </div>
-          <!-- TODO grid -->
-          <div
-            class="flex flex-col items-center justify-center gap-4 md:flex-row"
-            data-id="68"
-          >
+          <div class="grid grid-cols-2 gap-4" data-id="68">
             <div class="rounded-2xl p-6 shadow-md">
               <div>Adresa: [Ulice a číslo] [Město], [PSČ]</div>
               <div>Telefon: [Telefonní číslo]</div>
@@ -258,15 +254,9 @@
       </section>
     </main>
 
-    <footer
-      class="rounded-2xl bg-secondaryDark px-6 py-6 text-secondaryLight"
-      data-id="74"
-    >
-      <div
-        class="container mx-auto flex max-w-4xl items-center justify-between"
-        data-id="75"
-      >
-        <p class="text-sm" data-id="76">
+    <footer>
+      <div class="flex items-center justify-between">
+        <p class="text-sm">
           © 2024 John Doe, Attorney at Law. All rights reserved.
         </p>
       </div>
