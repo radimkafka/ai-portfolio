@@ -18,7 +18,7 @@
         >
           JD
         </div>
-        <div data-id="5">
+        <div class="flex-grow">
           <h1 class="text-2xl font-bold" data-id="6">John Doe</h1>
           <p class="text-sm" data-id="7">Attorney at Law</p>
         </div>
@@ -34,130 +34,145 @@
         </a>
       </nav>
     </header>
-    <main>
+    <main class="flex flex-col gap-4">
       <section
         id="hero"
-        class="rounded-2xl bg-blue-800 px-6 py-20 text-sky-50"
+        class="flex flex-row gap-4 rounded-2xl bg-blue-900 px-6 py-20 text-sky-50"
         data-id="14"
       >
-        <div
-          class="container mx-auto max-w-4xl space-y-6 text-center"
-          data-id="15"
-        >
+        <div class="flex-0 flex items-center justify-center px-10">
+          <div
+            class="flex h-32 w-32 items-center justify-center rounded-full bg-secondaryLight text-4xl font-bold"
+            data-id="4"
+          >
+            JD
+          </div>
+        </div>
+        <div class="flex flex-1 flex-col gap-2">
           <h1 class="text-4xl font-bold" data-id="16">John Doe, advokát</h1>
           <p class="text-xl" data-id="17">
             Poskytování výjimečných právních služeb jednotlivcům a firmám.
           </p>
-          <a
-            data-id="18"
-            class="focus-visible:ring-ring rounded-2xl bg-secondaryLight px-6 py-3 font-medium text-secondaryDark transition-colors hover:bg-primaryDark/80 hover:text-secondaryLight focus-visible:outline-none focus-visible:ring-1"
-            href="#"
-            rel="ugc"
-          >
-            Domluvce si schůzku
-          </a>
+          <div class="flex">
+            <a
+              data-id="18"
+              class="focus-visible:ring-ring rounded bg-secondaryLight p-3 font-medium text-secondaryDark transition-colors hover:bg-primaryDark/80 hover:text-secondaryLight focus-visible:outline-none focus-visible:ring-1"
+              href="#"
+              rel="ugc"
+            >
+              Domluvce si schůzku
+            </a>
+          </div>
         </div>
       </section>
-      <section id="about" class="px-6 py-20" data-id="19">
-        <div class="container mx-auto max-w-4xl space-y-8" data-id="20">
-          <div class="space-y-4" data-id="21">
-            <h2 class="text-3xl font-bold" data-id="22">O mě</h2>
-            <p data-id="23">
-              Jsem John Doe, zkušený právník se specializací na [obor práva,
-              např. obchodní právo, rodinné právo, trestní právo apod.]. Ve své
-              praxi se zaměřuji na poskytování komplexních právních služeb s
-              důrazem na individuální přístup a maximální ochranu práv a zájmů
-              mých klientů.
-            </p>
-          </div>
-          <div class="space-y-4" data-id="25">
-            <h2 class="text-3xl font-bold" data-id="26">Kvalifikace</h2>
-            <ul class="space-y-2" data-id="27">
-              <li data-id="28">
-                <div class="flex items-center gap-2" data-id="29">
-                  <svg
-                    data-id="30"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="h-5 w-5 text-secondaryDark"
-                  >
-                    <path d="M20 6 9 17l-5-5"></path></svg
-                  ><span data-id="31">Vysoká škola života</span>
-                </div>
-              </li>
-              <li data-id="32">
-                <div class="flex items-center gap-2" data-id="33">
-                  <svg
-                    data-id="34"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="h-5 w-5 text-secondaryDark"
-                  >
-                    <path d="M20 6 9 17l-5-5"></path></svg
-                  ><span data-id="35"
-                    >Admitted to practice law in the state of California</span
-                  >
-                </div>
-              </li>
-              <li data-id="36">
-                <div class="flex items-center gap-2" data-id="37">
-                  <svg
-                    data-id="38"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="h-5 w-5 text-secondaryDark"
-                  >
-                    <path d="M20 6 9 17l-5-5"></path></svg
-                  ><span data-id="39"
-                    >Over 15 years of experience in a wide range of legal
-                    matters</span
-                  >
-                </div>
-              </li>
-              <li data-id="40">
-                <div class="flex items-center gap-2" data-id="41">
-                  <svg
-                    data-id="42"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="h-5 w-5 text-secondaryDark"
-                  >
-                    <path d="M20 6 9 17l-5-5"></path></svg
-                  ><span data-id="43"
-                    >Recognized as a top attorney in the local community</span
-                  >
-                </div>
-              </li>
-            </ul>
-          </div>
+      <section id="about" class="flex flex-row gap-4" data-id="19">
+        <div
+          class="flex flex-1 flex-col rounded-2xl bg-sky-50 px-6 py-20"
+          data-id="21"
+        >
+          <h2 class="text-3xl font-bold" data-id="22">O mě</h2>
+          <p data-id="23">
+            Jsem John Doe, zkušený právník se specializací na [obor práva, např.
+            obchodní právo, rodinné právo, trestní právo apod.]. Ve své praxi se
+            zaměřuji na poskytování komplexních právních služeb s důrazem na
+            individuální přístup a maximální ochranu práv a zájmů mých klientů.
+          </p>
+        </div>
+        <div
+          class="flex flex-1 flex-col rounded-2xl bg-sky-50 px-6 py-20"
+          data-id="25"
+        >
+          <h2 class="text-3xl font-bold" data-id="26">Kvalifikace</h2>
+          <ul class="space-y-2" data-id="27">
+            <li data-id="28">
+              <div class="flex items-center gap-2" data-id="29">
+                <svg
+                  data-id="30"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="h-5 w-5 text-secondaryDark"
+                >
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+
+                <span data-id="31">Vysoká škola života</span>
+              </div>
+            </li>
+            <li data-id="32">
+              <div class="flex items-center gap-2" data-id="33">
+                <svg
+                  data-id="34"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="h-5 w-5 text-secondaryDark"
+                >
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+                <span data-id="35"
+                  >Admitted to practice law in the state of California</span
+                >
+              </div>
+            </li>
+            <li data-id="36">
+              <div class="flex items-center gap-2" data-id="37">
+                <svg
+                  data-id="38"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="h-5 w-5 text-secondaryDark"
+                >
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+                <span data-id="39"
+                  >Over 15 years of experience in a wide range of legal
+                  matters</span
+                >
+              </div>
+            </li>
+            <li data-id="40">
+              <div class="flex items-center gap-2" data-id="41">
+                <svg
+                  data-id="42"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="h-5 w-5 text-secondaryDark"
+                >
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+                <span data-id="43"
+                  >Recognized as a top attorney in the local community</span
+                >
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
       <section id="services" class="bg-secondaryDark px-6 py-20" data-id="44">
