@@ -37,7 +37,7 @@
     <main class="flex flex-col gap-4">
       <section
         id="hero"
-        class="flex flex-row gap-4 rounded-2xl bg-blue-900 px-6 py-20 text-sky-50"
+        class="flex flex-row gap-4 rounded-2xl bg-indigo-900 px-6 py-20 text-sky-50"
         data-id="14"
       >
         <div class="flex-0 flex items-center justify-center px-10">
@@ -219,7 +219,11 @@
           </div>
         </div>
       </section>
-      <section id="contact" class="px-6 py-20" data-id="62">
+      <section
+        id="contact"
+        class="rounded-2xl bg-sky-50 px-6 py-20"
+        data-id="62"
+      >
         <div class="container mx-auto max-w-4xl space-y-8" data-id="63">
           <div class="space-y-4" data-id="64">
             <h2 class="text-3xl font-bold" data-id="65">Contact Me</h2>
@@ -228,15 +232,16 @@
               consultation, please don't hesitate to reach out.
             </p>
           </div>
-          <div class="flex flex-col gap-1 md:flex-row" data-id="68">
-            <div class="flex flex-auto flex-col gap-2">
+          <div class="flex flex-col gap-4 md:flex-row" data-id="68">
+            <div class="rounded-2xl p-6 shadow-md">
               <div>Adresa: [Ulice a číslo] [Město], [PSČ]</div>
               <div>Telefon: [Telefonní číslo]</div>
               <div>E-mail: [Emailová adresa]</div>
             </div>
 
-            <div class="flex-auto">
+            <div>
               <iframe
+                class="flex-auto rounded-2xl shadow-md"
                 style="border: none"
                 src="https://frame.mapy.cz/s/budacasugu"
                 width="400"
@@ -249,7 +254,10 @@
       </section>
     </main>
 
-    <footer class="bg-secondaryDark px-6 py-6 text-secondaryLight" data-id="74">
+    <footer
+      class="rounded-2xl bg-secondaryDark px-6 py-6 text-secondaryLight"
+      data-id="74"
+    >
       <div
         class="container mx-auto flex max-w-4xl items-center justify-between"
         data-id="75"
